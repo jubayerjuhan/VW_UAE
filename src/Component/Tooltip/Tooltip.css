@@ -1,0 +1,21 @@
+.comp__tooltip {
+  width: fit-content;
+  border-bottom: 3px solid #ad0800;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  padding: 8px 15px 6px 15px;
+  position: relative;
+  background: #ad0800;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+.comp__tooltip::after {
+  content: "";
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-color: var(--color-primary);
+  transform: translateX(-50%) rotateZ(45deg);
+}

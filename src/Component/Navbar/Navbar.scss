@@ -1,0 +1,37 @@
+.navbar__header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.8rem;
+  background-color: lightgray;
+}
+
+.navbar__logosection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  p {
+    color: red;
+    max-width: 30%;
+  }
+}
+
+.navbar__navsection {
+  display: flex;
+  background-color: var(--color-primary);
+
+  .navbar__navlinks {
+    padding: 0.5rem;
+
+    &:hover {
+      background-color: var(--color-secondary);
+    }
+    a {
+      color: white;
+    }
+  }
+}

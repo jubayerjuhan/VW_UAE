@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,uBAAuB,CAAC;EACtB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;EAEpB,gBAAgB,EAAE,qDAAqD;EACvE,qBAAqB,EAAE,KAAK;EAC5B,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,aAAa;CACnC",
+    "sources": [
+        "Herosection.scss"
+    ],
+    "names": [],
+    "file": "Herosection.css"
+}

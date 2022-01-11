@@ -1,0 +1,26 @@
+.allProducts__wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(150px, 1fr))[6];
+      grid-template-columns: repeat(6, minmax(150px, 1fr));
+  grid-gap: 1rem;
+}
+
+.allproducts__featured-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #fafafa;
+  border: 1px solid #eaeaea;
+}
+
+.allproducts__container {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+/*# sourceMappingURL=AllProducts.css.map */
